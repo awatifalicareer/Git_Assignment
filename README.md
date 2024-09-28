@@ -1,9 +1,21 @@
-# Git Demonstration Assignment
-This repository is used to demonstrate Git functionalities with the following team members:
+# Git Commands for Team Members
 
-- Awatif Ali (Student ID: 123456)
-- Zaina Doe (Student ID: 789012)
-- Seba Roe (Student ID: 345678)
+1. **Clone the Repository:**
+   `git clone <repository-url>`
 
-## Assignment Overview
-- Demonstrating the use of Git commands such as branch, fork, merge, pull, push, commit, and fetch.
+2. **Create a Branch:**
+   `git checkout -b feature-branch`
+
+3. **Add and Commit Changes:**
+   `git add .`
+   `git commit -m "Added new feature"`
+
+4. **Push Changes:**
+   `git push origin feature-branch`
+
+5. **Pull Changes:**
+   `git pull origin main`
+
+6. **Merge Branch:**
+   `git checkout main`
+   `git merge feature-branch`
